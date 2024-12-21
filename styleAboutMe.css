@@ -3,7 +3,7 @@
 body {
 	font-family: "Oswald";
 	margin: 0;
-	background-color: white;
+	background-color: #172446;
 }
 
 .navigationtab {
@@ -75,7 +75,6 @@ header {
 
 .whoami {
 	width: 35%;
-
 }
 
 .logoname {
@@ -93,3 +92,32 @@ header {
 	padding-top: 50px;
 	padding-left: 70px;
 }
+.aboutme-flex {
+	display: flex;
+	align-items: center;
+	height: 100vh;
+}
+
+.checkout {
+	color: white;
+	padding-left: 70px;
+}
+
+.gettoknowme {
+	color: white;
+	padding-left: 70px;
+	width: 50%;
+}
+
+.gettotknowme img {
+	width: 100%;
+}
+
+.newwrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
