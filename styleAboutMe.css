@@ -69,6 +69,8 @@ header {
 	background-image: url(images/backgroundWright.webp);
 	background-size: cover;
 	background-position: top right;
+	animation-name: objectioning;
+	animation-duration: 2.5s;
 }
 
 .wrapper {
@@ -85,6 +87,8 @@ header {
 .logoname {
 	width: 400px;
 	padding-top: 70px;
+	animation-name: phoenix;
+	animation-duration: 1.5s;
 }
 
 .intro {
@@ -165,3 +169,26 @@ header {
 	}
 }
 
+@keyframes objectioning{
+	from{
+		opacity: 0%;
+
+	}
+
+	to{
+		opacity: 100%;
+
+	}
+}
+
+@keyframes phoenix{
+	from{
+		opacity: 0%;
+transform: rotate(0deg);
+	}
+
+	to{
+		opacity: 100%;
+transform: rotate(360deg);
+	}
+}
