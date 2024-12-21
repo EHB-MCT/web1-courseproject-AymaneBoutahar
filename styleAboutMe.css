@@ -17,7 +17,11 @@ body {
 	position: fixed;
 }
 
-.logoportfolio-desktop{
+.logoportfolio-desktop {
+	height: 40px;
+}
+
+.logoportfolio-mobile {
 	height: 40px;
 }
 
@@ -64,6 +68,7 @@ header {
 	height: 100vh;
 	background-image: url(images/backgroundWright.webp);
 	background-size: cover;
+	background-position: top right;
 }
 
 .wrapper {
@@ -98,26 +103,65 @@ header {
 	height: 100vh;
 }
 
-.checkout {
-	color: white;
-	padding-left: 70px;
-}
-
-.gettoknowme {
-	color: white;
-	padding-left: 70px;
-	width: 50%;
-}
-
-.gettotknowme img {
-	width: 100%;
-}
-
 .newwrap {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	margin-top: 50px;
 	margin-bottom: 50px;
+}
+
+.newwrap div {
+	width: 49%;
+}
+
+.checkout {
+	color: white;
+	padding-left: 70px;
+}
+
+.knowme {
+	color: white;
+	width: 48%;
+	padding-left: 70px;
+}
+
+.knowme img {
+	width: 100%;
+}
+
+
+
+
+.mobile {
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+	.desktop {
+		display: none;
+	}
+
+	.mobile {
+		display: block;
+		padding-top: 12px;
+	}
+
+	header {
+		background-image: none;
+	}
+
+	.whoami {
+		width: 100%;
+		padding-right: 60px;
+	}
+
+	.skills {
+		width: 100%;
+	}
+
+	.overlap div {
+		width: 98%;
+	}
 }
 
